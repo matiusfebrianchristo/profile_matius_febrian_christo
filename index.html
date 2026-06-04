@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/web-icon-2.svg" type="image/x-icon">
+    <title>Profile - Matius Febrian Christo</title>
+
+    <!-- Manual CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- IMPORT TAILWIND CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body class="bg-[#F1F5F9]">
+
+    <!-- Header -->
+    <nav class="fixed w-full z-20 backdrop-blur-xl bg-white/50 flex justify-center gap-10 py-5 px-10">
+        <ul class="flex gap-20">
+        <li><a href="#about" class="py-3 px-5 rounded-xl text-[#1F2937] font-bold hover:text-gray-900 hover:bg-indigo-100">About</a></li>
+        <li><a href="#skills" class="py-3 px-5 rounded-xl text-[#1F2937] font-bold hover:text-gray-900 hover:bg-indigo-100">Skills</a></li>
+        <li><a href="#experience" class="py-3 px-5 rounded-xl text-[#1F2937] font-bold hover:text-gray-900 hover:bg-indigo-100">Experience</a></li>
+        <li><a href="#certificate" class="py-3  px-5 rounded-xl text-[#1F2937] font-bold hover:text-gray-900 hover:bg-indigo-100">Certificates</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content About -->
+    <div id="about" class="container mx-auto pt-20 pb-30 flex flex-col md:flex-row justify-center items-center gap-10">
+        <div class="p-20">
+            <img width="400" height="400" src="assets/images/profile.jpeg" alt="Profile Picture" class="rounded-2xl w-full">
+        </div>
+        <div class="p-10 max-w-4xl">
+            <h1 class="text-4xl font-bold text-[#374151] mb-5">Hi, I'm <span class="text-[#124191]">Matius Febrian Christo</span></h1>
+            <p class="text-md text-[#374151] mb-8 indent-15">i'm form East Java, Indonesia. I'm 22 years old. I graduated from <a href="https://smkn1nglegok.sch.id/" target="_blank" class="hover:underline"><strong>SMKN 1 NGLEGOK</strong></a> and have worked for 3 years and 5 months as a <strong>Network Engineer</strong>. I am currently pursuing a Bachelor's degree in Informatics Engineering at <a href="https://unsia.ac.id/" target="_blank" class="hover:underline"><strong>Asia Cyber University</strong></a>.</p>
+            <p class="text-md text-[#374151] mb-5 indent-15"> I like to learn new things. I currently work as a Network Engineer and i continue to develop my programming skills, especially web programming. The journey can be tiring, but I remain determined and persistent because I believe that continuous learning and hard work will help me achieve my dream of becoming a programmer one day.</p>
+        </div>
+    </div>
+
+    <!-- Content Skills -->
+    <div id="skills" class="min-h-screen bg-gray-200 w-full pt-20 pb-30  shadow-md inset-shadow-sm py-10">
+        <div class="w-full mb-10">
+            <h2 class="text-3xl font-bold py-10 text-indigo-950 tracking-widest text-center">Skills</h2>
+            <div class="flex flex-row justify-between min-h-110 gap-5 px-20 mt-10">
+                
+                <!-- Programming -->
+                <div id="programming" class="rounded-2xl p-5 bg-white  w-full shadow-md relative">
+                    <h3 class="text-xl font-bold mt-2 mb-4 text-gray-800 text-center">Programming</h3>
+                    <hr />
+                    <ul class="list-disc list-inside text-md text-gray-600 mt-10 mx-10">
+                        <li class="mb-2">JavaScript</li>
+                        <li class="mb-2">Python</li>
+                        <li class="mb-2">PHP</li>
+                        <li class="mb-2">Node.js</li>
+                    </ul>
+                    <image src="assets/images/programming.svg" alt="Programming Icon" class="w-auto h-40 absolute bottom-5 right-5 opacity-50">
+                </div>
+
+                <!-- Network -->
+                <div class="rounded-2xl p-5 bg-white  w-full shadow-md relative" id="network">
+                    <h3 class="text-xl font-bold mt-2 mb-4 text-gray-800 text-center">Network</h3>
+                    <hr />
+                    <ul class="list-disc list-inside text-md text-gray-600 mt-10 mx-10">
+                        <li class="mb-2">IP Addressing</li>
+                        <li class="mb-2">Subnetting</li>
+                        <li class="mb-2">Routing</li>
+                        <li class="mb-2">Switching</li>
+                        <li class="mb-2">Service Provisioning</li>
+                    </ul>
+                    <image src="assets/images/network.svg" alt="Network Icon" class="w-auto h-40 absolute bottom-5 right-5 opacity-50"></image>
+                </div>
+
+                <!-- Database -->
+                <div id="database" class="rounded-2xl  p-5 bg-white w-full shadow-md relative">
+                    <h3 class="text-xl font-bold mt-2 mb-4 text-gray-800 text-center">Database</h3>
+                    <hr />
+                    <ul class="list-disc list-inside text-md text-gray-600 mt-10 mx-10">
+                        <li class="mb-2">MySQL</li>
+                        <li class="mb-2">PostgreSQL</li>
+                        <li class="mb-2">MongoDB</li>
+                    </ul>
+                    <image src="assets/images/database.svg" alt="Database Icon" class="w-auto h-30 absolute bottom-5 right-5 opacity-50"></image>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Experiences -->
+    <div id="experience" class=" min-h-screen w-full pt-20 pb-30 py-20 text-center">
+        <h2 class="text-3xl font-bold py-10 text-indigo-950 tracking-widest">Experience</h2>
+        
+        <!-- Table for Experience -->
+        <table class="max-w-screen bg-gray-200 shadow-md inset-shadow-sm rounded-lg center m-20">
+            <tr class="bg-white shadow-md rounded-lg mb-5">
+                <th class="p-5 text-gray-900 font-bold">Position</th>
+                <th class="p-5 text-gray-900">Company</th>
+                <th class="p-5 text-gray-900 w-45">Duration</th>
+                <th class="p-5 text-gray-900">Description</th>
+            </tr>
+            <tr class="bg-[#f9fafb] shadow-md rounded-lg mb-5">
+                <td class="p-5 text-gray-700 font-bold">Mentor</td>
+                <td class="p-5 text-gray-700"><a href="https://agunacourse.com/" target="_blank">Aguna Course</a></td>
+                <td class="p-5 text-gray-700">2022 - 2023</td>
+                <td class="p-5 text-gray-700 text-wrap text-left">Guide scholarship participants to complete the Google IT Support Course. As a Mentor, I help participants in my class to pass the course and help or provide solutions when participants experience difficulties.</td>
+            </tr>
+            <tr class="bg-[#f9fafb]  shadow-md rounded-lg mb-5">
+                <td class="p-5 text-gray-700 font-bold">Network Engineer</td>
+                <td class="p-5 text-gray-700"><a href="https://pt-lte.com/" target="_blank">PT. Lintas Teknologi Evolusi</a></td>
+                <td class="p-5 text-gray-700">2023 - 2025</td>
+                <td class="p-5 text-gray-700 text-wrap text-left">Handling configuration and maintenance of network infrastructure. Integration, monitoring and troubleshooting of network issues.</td>
+            </tr>
+            <tr class="bg-[#f9fafb]  shadow-md rounded-lg mb-5">
+                <td class="p-5 text-gray-700 font-bold">Technical Support Engineer</td>
+                <td class="p-5 text-gray-700"><a href="https://www.nokia.com/" target="_blank">PT. Nokia Solution and Network Indonesia</a></td>
+                <td class="p-5 text-gray-700">2025 - Present</td>
+                <td class="p-5 text-gray-700 text-wrap text-left">Providing technical support for network and IT infrastructure issues. Assisting customers with troubleshooting and resolving technical problems on their network.</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Content Certificates -->
+    <div id="certificate" class="min-h-screen bg-gray-200 w-full pt-20 pb-30  shadow-md inset-shadow-sm py-10 px-20">
+        <div class="w-full mb-10">
+            <h2 class="text-3xl font-bold py-10 mb-10 text-indigo-950 tracking-widest text-center">Certificates</h2>
+            
+            <!-- Table for Certificates -->
+            <table class="w-full bg-gray-200 shadow-md inset-shadow-sm rounded-lg center text-center">
+                <tr class="bg-white shadow-md rounded-lg mb-5">
+                    <th class="p-5 text-gray-900 font-bold w-1/4">Certification</th>
+                    <th class="p-5 text-gray-900">Issuer</th>
+                    <th class="p-5 text-gray-900">Credential ID</th>
+                    <th class="p-5 text-gray-900">Year</th>
+                    <th class="p-5 text-gray-900">Action</th>
+                </tr>
+                <tr class="bg-[#f9fafb] shadow-md rounded-lg mb-5">
+                    <td class="p-5 text-gray-700 font-bold">MTCNA</td>
+                    <td class="p-5 text-gray-700"><a href="https://agunacourse.com/" target="_blank">Aguna Course</a></td>
+                    <td class="p-5 text-gray-700">AC-097-37056374-98</td>
+                    <td class="p-5 text-gray-700">2022</td>
+                    <td class="p-5 text-gray-700"><button onclick="viewCertificate('AC-097-37056374-98')" class="bg-[#124191] cursor-pointer hover:bg-indigo-700 text-white  py-2 px-4 rounded">View</button></td>
+                </tr>
+                <tr class="bg-[#f9fafb] shadow-md rounded-lg mb-5">
+                    <td class="p-5 text-gray-700 font-bold">IT Support Google</td>
+                    <td class="p-5 text-gray-700"><a href="https://coursera.org/" target="_blank">Coursera</a></td>
+                    <td class="p-5 text-gray-700">287RYZ5MSKKH</td>
+                    <td class="p-5 text-gray-700">2022</td>
+                    <td class="p-5 text-gray-700"><button onclick="viewCertificate('287RYZ5MSKKH')" class="bg-[#124191] cursor-pointer hover:bg-indigo-700 text-white py-2 px-4 rounded">View</button></td>
+                </tr>
+                <tr class="bg-[#f9fafb] shadow-md rounded-lg mb-5">
+                    <td class="p-5 text-gray-700 font-bold">Pemrograman Dasar JavaScript</td>
+                    <td class="p-5 text-gray-700"><a href="https://dicoding.com/" target="_blank">Dicoding</a></td>
+                    <td class="p-5 text-gray-700">1OP81Y44LZQK</td>
+                    <td class="p-5 text-gray-700">2023</td>
+                    <td class="p-5 text-gray-700"><button onclick="viewCertificate('1OP81Y44LZQK')" class="bg-[#124191] cursor-pointer hover:bg-indigo-700 text-white py-2 px-4 rounded">View</button></td>
+                </tr>
+                <tr class="bg-[#f9fafb] shadow-md rounded-lg mb-5">
+                    <td class="p-5 text-gray-700 font-bold">Nokia Certified Network Routing Specialist I (NRS I)</td>
+                    <td class="p-5 text-gray-700"><a href="https://www.nokia.com/" target="_blank">Nokia</a></td>
+                    <td class="p-5 text-gray-700">20603</td>
+                    <td class="p-5 text-gray-700">2023</td>
+                    <td class="p-5 text-gray-700"><button onclick="viewCertificate('nokia-nrs-1')" class="bg-[#124191] cursor-pointer hover:bg-indigo-700 text-white py-2 px-4 rounded">View</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer class="bg-[#124191] text-white h-27 py-2">
+    <div class="flex justify-between gap-5 px-5">
+        <ul class="text-gray-200 pt-2 social-media flex gap-1 text-xs flex-col">
+            <li><i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/matius-febrian-christo-a8331b1ab/" target="_blank"> matiusfebrianchristo</li></a>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:matiusfebrianchristo@gmail.com" target="_blank"> matiusfebrianchristo@gmail.com</li></a>
+            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="https://wa.me/6285236598358" target="_blank">  +62 852-3659-8358</li></a> 
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i>  Blitar, East Java, Indonesia</li>
+        </ul>
+        <div class="flex items-center">
+            <p>&copy;2026 Build with &hearts; by Matius Febrian Christo</p>
+        </div>
+    </div>
+    </footer>
+</body>
+
+<!-- IMPORT JS -->
+<script src="assets/js/main.js"></script>
+</html>

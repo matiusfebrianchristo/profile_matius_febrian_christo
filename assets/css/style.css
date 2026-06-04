@@ -1,0 +1,51 @@
+html {
+  overflow-x:hidden; 
+}
+
+* {
+  @apply font-poppins;
+}
+
+
+#experience  table tr {
+  border-bottom: 1px solid #e5e7eb;
+  border-right: 1px solid #e5e7eb;
+}
+
+#experience  table tr td, #experience  table tr th {
+  border-left: 1px solid #e5e7eb;
+}
+
+
+#certificate  table tr {
+  border-bottom: 1px solid #e5e7eb;
+  border-right: 1px solid #e5e7eb;
+}
+
+#certificate  table tr td, #certificate  table tr th {
+  border-left: 1px solid #e5e7eb;
+}
+
+
+/* .social-media {
+  color: white;
+}
+.social-media ul {
+  list-style: none;
+}
+
+.social-media li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.social-media a {
+  text-decoration: none;
+  
+}
+
+.social-media i {
+  font-size: 20px;
+  width: 40px;
+} */
