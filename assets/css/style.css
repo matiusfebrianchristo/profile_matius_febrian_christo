@@ -1,0 +1,17 @@
+html {
+  overflow-x:hidden; 
+}
+
+* {
+  @apply font-poppins;
+}
+
+
+#experience  table tr {
+  border-bottom: 1px solid #e5e7eb;
+  border-right: 1px solid #e5e7eb;
+}
+
+#experience  table tr td, #experience  table tr th {
+  border-left: 1px solid #e5e7eb;
+}
